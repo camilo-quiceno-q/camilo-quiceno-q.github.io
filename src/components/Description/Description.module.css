@@ -19,6 +19,11 @@
   object-fit: cover;
   border-radius: 50%;
   text-align: center;
+  transition: var(--transition-transform);
+}
+
+.image:hover {
+  transform: scale(1.03);
 }
 
 .imageContainer {
