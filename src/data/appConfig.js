@@ -19,16 +19,16 @@ export const appConfig = {
     image: profilePicture,
     description: (
       <>
-        As a <strong>Software Engineer</strong> with over 3 years of experience and a <strong>Master's in Data Science</strong>, I specialize in designing and building scalable, data-driven solutions for large-scale distributed systems.
+        As a <strong>Software Engineer</strong> with a <strong>Master’s in Data Science</strong> and <strong>AWS certifications (Cloud & AI)</strong>, I specialize in designing and building scalable, data-driven backend solutions for large-scale distributed systems. I bridge the gap between high-performance software engineering, cloud infrastructure, and intelligent data systems.
         <br></br>
         <br></br>
-        Currently, at <strong>Nu</strong>, I apply my expertise in microservices to the FinTech sector. As part of the Upper Funnel Pack, my focus is on transforming customer curiosity into action. I collaborate with Product and Design teams to build and enhance the services that guide customers seamlessly through their journey, from their first interaction to product selection, ultimately empowering them to make informed financial decisions.
+        Currently, at <strong>Nu Colombia</strong>, I work in the Growth team (Upper Funnel Pack), engineering the core microservices for customer acquisition. I focus heavily on the <strong>'Member Get Member' (MGM)</strong> referral flow and building cutting-edge <strong>agentic architectures</strong> to deliver intelligent end-to-end solutions, collaborating with Product and Design teams to build frictionless, high-availability services that turn customer curiosity into action.
         <br></br>
         <br></br>
-        Previously, at <strong>Talent.com</strong>, I played a key role in the full migration of their website from a PHP monolith to a modern microservices architecture using Go and TypeScript, deployed on Kubernetes and AWS. During this project, I transformed unstructured job listings into valuable, structured data and integrated real-time monitoring with Prometheus and Grafana to ensure optimal performance. This migration significantly improved scalability and set the foundation for new AI-driven capabilities.
+        Previously, at <strong>Talent.com</strong>, I played a key role in the migration of their core monolith to Go and TypeScript microservices deployed on AWS and Kubernetes. During this project, I integrated real-time monitoring with Prometheus and Grafana, and transformed unstructured job listings into valuable, structured data to enable new AI-driven capabilities.
         <br></br>
         <br></br>
-        My earlier experience includes leading the <strong>Plastic Design Team</strong> at Materialise, where I focused on quality assurance for customized surgical guides to ensure the highest standards of precision.
+        My earlier experience includes leading the <strong>CMF Plastic Team</strong> at Materialise, taking end-to-accountability for the quality and delivery of customized surgical guides, applying my background in Bioengineering to high-precision processes.
       </>
     )
   },
@@ -40,7 +40,7 @@ export const appConfig = {
           title: "Software Engineer",
           date: "Mar 2025 - Present",
           tasks: [
-            "As a member of the Upper Funnel Pack, my role is to engineer the core services that guide customers through their initial journey. Our team's mission is to transform curiosity into action by designing and building a frictionless and intuitive architecture for selecting financial products",
+            "As a member of the Growth team (Upper Funnel Pack), I engineer the core microservices for customer acquisition, focusing heavily on the 'Member Get Member' (MGM) referral flow and building cutting-edge agentic architectures to deliver intelligent end-to-end solutions",
             "Collaborate in an agile environment with Product, Design, and Engineering teams to design and implement robust, end-to-end solutions for new user experiences and demand generation channels",
             "Drive the adoption of software engineering principles and architectural best practices to ensure a highly available and resilient platform",
             "Architect, build, and maintain scalable microservices that power the customer journey, from initial interaction to product selection",
@@ -109,6 +109,16 @@ export const appConfig = {
     }
   ],
   education: [
+    {
+      background: "AWS Certified AI Practitioner",
+      place: "Amazon Web Services (AWS)",
+      completion: "2025"
+    },
+    {
+      background: "AWS Certified Cloud Practitioner",
+      place: "Amazon Web Services (AWS)",
+      completion: "2025"
+    },
     {
       background: "MSc Data Science",
       place: "University of Aberdeen",
