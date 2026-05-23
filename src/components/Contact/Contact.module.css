@@ -1,0 +1,132 @@
+.contactContainer {
+  padding: var(--padding-section);
+  width: var(--container-width-desktop);
+  margin: 0 auto;
+  color: var(--color-black);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.titleColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+
+.contactTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  line-height: 1.2;
+  background: linear-gradient(135deg, var(--color-text-dark), var(--color-text-medium));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.buttonsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.contactButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  background: var(--color-white);
+  border-radius: 12px;
+  border: 1px solid var(--border-gray);
+  transition: var(--transition-transform), var(--shadow-hover), var(--transition-background);
+  text-align: center;
+  min-height: 50px;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contactLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contactLink:hover .contactButton {
+  background: #e3e6e8;
+  border-color: #626769;
+}
+
+.icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+.noData {
+  padding: 2rem;
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .contactContainer {
+    width: 90%;
+    padding: 1rem 0.5rem;
+  }
+  
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .titleColumn {
+    padding-top: 0;
+  }
+  
+  .contactTitle {
+    font-size: 2rem;
+  }
+  
+  .buttonsGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  .contactButton {
+    padding: 1rem;
+    min-height: 80px;
+  }
+  
+  .icon {
+    font-size: 1.25rem;
+  }
+  
+  .text {
+    font-size: 0.9rem;
+  }
+} 

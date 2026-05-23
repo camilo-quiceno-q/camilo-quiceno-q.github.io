@@ -1,0 +1,11 @@
+.divider {
+  padding: 1rem;
+  margin: 0 auto;
+  color: var(--color-black);
+  background-color: var(--color-bg-gray);
+  text-align: center;
+}
+
+.divider h2 {
+  font-size: 3rem;
+}

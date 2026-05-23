@@ -1,0 +1,60 @@
+:root {
+  --color-primary: #626769;
+  --color-text-dark: #1f2937;
+  --color-text-medium: #374151;
+  --color-text-light: #6b7280;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  
+  --color-bg-light: #f8f9fa;
+  --color-bg-gray: #f0f0f0;
+  --color-bg-hover: #e3f2fd;
+  
+  --border-gray: #e5e7eb;
+  --border-light: #e9ecef;
+  
+  --shadow-light: 0 2px 20px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+  --transition-all: all 0.3s ease;
+  --transition-transform: transform 0.2s ease;
+  --transition-background: background-color 0.2s ease;
+  
+  --container-width-desktop: 70%;
+  --container-width-mobile: 90%;
+  --container-width-small: 95%;
+  --padding-section: 2rem 1rem;
+  --padding-mobile: 1rem 0.5rem;
+}
+
+.container-common {
+  width: var(--container-width-desktop);
+  margin: 0 auto;
+  color: var(--color-black);
+}
+
+.section-padding {
+  padding: var(--padding-section);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-text-dark), var(--color-text-medium));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media (max-width: 768px) {
+  .container-common {
+    width: var(--container-width-mobile);
+  }
+  
+  .section-padding {
+    padding: var(--padding-mobile);
+  }
+}
+
+@media (max-width: 640px) {
+  .container-common {
+    width: var(--container-width-small);
+  }
+}

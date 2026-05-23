@@ -1,0 +1,72 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  
+  background-image: url('../../assets/images/hero/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1,
+.hero h2 {
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+}
+
+.titleWithIcon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  margin: 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.hero .emoji {
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero .emoji {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+} 
