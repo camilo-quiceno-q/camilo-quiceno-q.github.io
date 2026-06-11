@@ -6,10 +6,10 @@ export const appConfig = {
     emoji: '👋',
     title1: 'CQQ - Camilo Quiceno Quintero',
     title1Mobile: (<><br></br>CQQ <br></br> Camilo Quiceno Quintero <br></br></>),
-    title2: '💻 🟪 Data-Powered Software Engineer | 🎓 MSc Data Science',
-    title2Mobile: (<><br></br>💻 🟪 Data-Powered Software Engineer <br></br> 🎓 MSc Data Science <br></br><br></br></>),
+    title2: '💻 🟪 Data-Powered Backend Engineer | 🎓 MSc Data Science',
+    title2Mobile: (<><br></br>💻 🟪 Data-Powered Backend Engineer <br></br> 🎓 MSc Data Science <br></br><br></br></>),
     title3: 'Nu Colombia',
-    heroText: '💻 🟪 Data-Powered Software Engineer | 🎓 MSc Data Science',
+    heroText: '💻 🟪 Data-Powered Backend Engineer | 🎓 MSc Data Science',
     backgroundImage: heroBackground,
   },
   about: {
@@ -19,16 +19,16 @@ export const appConfig = {
     image: profilePicture,
     description: (
       <>
-        As a <strong>Software Engineer</strong> with a <strong>Master’s in Data Science</strong> and <strong>AWS certifications (Cloud & AI)</strong>, I specialize in designing and building scalable, data-driven backend solutions for large-scale distributed systems. I bridge the gap between high-performance software engineering, cloud infrastructure, and intelligent data systems.
+        With nearly 4 years of experience as a <strong>Software Engineer</strong>, a <strong>Master's in Data Science</strong>, and <strong>AWS certifications in Cloud and AI</strong>, I specialize in architecting highly available, scalable backend systems and leading complex platform modernizations.
         <br></br>
         <br></br>
-        Currently, at <strong>Nu Colombia</strong>, I work in the Growth team (Upper Funnel Pack), engineering the core microservices for customer acquisition. I focus heavily on the <strong>'Member Get Member' (MGM)</strong> referral flow and building cutting-edge <strong>agentic architectures</strong> to deliver intelligent end-to-end solutions, collaborating with Product and Design teams to build frictionless, high-availability services that turn customer curiosity into action.
+        Currently at <strong>Nu (Growth BU)</strong>, I engineer core services that transform prospects into customers and scale <strong>Member-Get-Member (MGM)</strong> initiatives for millions of users. I focus on building resilient, frictionless architectures for high-scale systems while architecting custom <strong>AI agents</strong> to optimize the software development lifecycle. Collaborating across Marketing, Design, Product, and Engineering, I deliver robust, end-to-end solutions.
         <br></br>
         <br></br>
-        Previously, at <strong>Talent.com</strong>, I played a key role in the migration of their core monolith to Go and TypeScript microservices deployed on AWS and Kubernetes. During this project, I integrated real-time monitoring with Prometheus and Grafana, and transformed unstructured job listings into valuable, structured data to enable new AI-driven capabilities.
+        Previously, I played a key role in migrating a high-traffic platform (<strong>Talent.com</strong>) from legacy PHP to a modern microservices architecture using <strong>Go, TypeScript, Kubernetes, and AWS</strong>. My professional trajectory is rooted in my background as a <strong>Design & Quality Team Leader</strong> at <strong>Materialise</strong>, where I honed my skills in cross-functional leadership, KPI management, and driving operational efficiency under strict quality standards.
         <br></br>
         <br></br>
-        My earlier experience includes leading the <strong>CMF Plastic Team</strong> at Materialise, taking end-to-accountability for the quality and delivery of customized surgical guides, applying my background in Bioengineering to high-precision processes.
+        Driven by the intersection of massive-scale distributed systems and practical AI innovation.
       </>
     )
   },
@@ -38,13 +38,13 @@ export const appConfig = {
       positions: [
         {
           title: "Software Engineer",
-          date: "Mar 2025 - Present",
+          date: "March 2025 - Present",
           tasks: [
-            "As a member of the Growth team (Upper Funnel Pack), I engineer the core microservices for customer acquisition, focusing heavily on the 'Member Get Member' (MGM) referral flow and building cutting-edge agentic architectures to deliver intelligent end-to-end solutions",
-            "Collaborate in an agile environment with Product, Design, and Engineering teams to design and implement robust, end-to-end solutions for new user experiences and demand generation channels",
-            "Drive the adoption of software engineering principles and architectural best practices to ensure a highly available and resilient platform",
-            "Architect, build, and maintain scalable microservices that power the customer journey, from initial interaction to product selection",
-            "Engineer solutions within a large-scale distributed system, focusing on system design, performance, and long-term maintainability"
+            "Operate as an integral Software Engineer within the Growth Business Unit, adopting Nu’s culture of end-to-end feature ownership without traditional frontend or backend silos. Drive the first-contact user journey by architecting frictionless, high-scale systems for financial product selection and scaling critical demand generation channels, including the Member-Get-Member (MGM) referral platform.",
+            "Architect and maintain resilient solutions within a large-scale distributed environment, championing architectural best practices and clean code principles to guarantee long-term maintainability.",
+            "Own and scale the Member-Get-Member (MGM) referral infrastructure, engineering high-throughput, secure backend logic to process viral growth loops and user rewards for millions of prospects.",
+            "Leverage cutting-edge AI agents and skills across all phases of the software development lifecycle to optimize engineering workflows and maximize code quality.",
+            "Collaborate closely across Marketing, Design, Product, and Engineering teams to rapidly design, iterate, and deploy end-to-end user acquisition funnels."
           ]
         }
       ]
@@ -53,14 +53,14 @@ export const appConfig = {
       name: "Talent.com",
       positions: [
         {
-          title: "Back-end Developer",
-          date: "Nov 2022 - Feb 2025",
+          title: "Backend Developer",
+          date: "November 2022 - March 2025",
           tasks: [
-            "Migrate Talent.com's website from PHP to a modern microservices architecture using Go and TypeScript, deployed on Kubernetes and AWS, enabling AI-driven capabilities and better scalability",
-            "Integrated real-time monitoring using Prometheus and Grafana to ensure platform stability, performance, and optimized resource utilization",
-            "Researched and tested new methodologies for capturing job attributes, refining data collection processes for greater precision and performance",
-            "Implemented continuous improvements and optimizations to data extraction scripts, enhancing efficiency, accuracy, and overall data quality",
-            "Developed a unified data platform to transform unstructured job listings into valuable, structured data, improving platform functionality and user experience across Talent.com"
+            "Migrated Talent.com’s website from PHP to a modern microservices architecture using Go and TypeScript, deployed on Kubernetes and AWS, enabling AI-driven capabilities and better scalability.",
+            "Integrated real-time monitoring using Prometheus and Grafana to ensure platform stability, performance, and optimized resource utilization.",
+            "Researched and tested new methodologies for capturing job attributes, refining data collection processes for greater precision and performance.",
+            "Implemented continuous improvements and optimizations to data extraction scripts, enhancing efficiency, accuracy, and overall data quality.",
+            "Developed a unified data platform to transform unstructured job listings into valuable, structured data, improving platform functionality and user experience across Talent.com."
           ]
         }
       ]
@@ -69,40 +69,20 @@ export const appConfig = {
       name: "Materialise",
       positions: [
         {
-          title: "Team Leader",
-          date: "Sep 2021 - Nov 2022",
+          title: "Design & Quality Team Leader",
+          date: "January 2017 - November 2022",
           tasks: [
-            "Hold the end-accountability for the quality, timely delivery, and cost-efficiency of all services performed in the CMF - MatCol Plastic Team",
-            "Calculate, Analyze & Present the Key Performance Indicators of the Team",
-            "Take a pro-active approach to improve the processes, services and operational efficiency",
-            "Manage team motivation and resolve conflicts"
+            "Lead the Plastic Design Team, overseeing service quality, timely delivery, and cost-efficiency.",
+            "Analyze and present key performance indicators (KPIs) to track team progress and success.",
+            "Drive process improvements and enhance operational efficiency through proactive management."
           ]
         },
         {
-          title: "Trainer & Technical Leader",
-          date: "Jan 2021 - Sep 2021",
+          title: "Designer & Quality Engineer",
+          date: "January 2017 - September 2021",
           tasks: [
-            "Provide trainings to newcomers",
-            "Provide intra-office trainings",
-            "Support the team resolving all the technical questions",
-            "Quality Engineer Tasks"
-          ]
-        },
-        {
-          title: "Quality Engineer",
-          date: "Jan 2019 - Jan 2021",
-          tasks: [
-            "Checked the quality of customized surgical guides for use by orthopedic surgeons during actual surgeries",
-            "Continue with Conversion & Designer Engineer Tasks"
-          ]
-        },
-        {
-          title: "Conversion & Designer Engineer",
-          date: "Jan 2018 - Jan 2019",
-          tasks: [
-            "Utilized Materialise software to convert 2D medical images into precise 3D bone models",
-            "Conducted pre-surgery planning using 3D bone models to enhance surgical precision",
-            "Designed and crafted customized surgical guides for orthopedic surgeons"
+            "Audit the quality of designs, ensuring they meet the required standards for accuracy and functionality.",
+            "Design customized surgical guides for orthopedic surgeons based on personalized 3D bone models."
           ]
         }
       ]
@@ -111,28 +91,23 @@ export const appConfig = {
   education: [
     {
       background: "AWS Certified AI Practitioner",
-      place: "Amazon Web Services (AWS)",
-      completion: "2025"
+      place: "Amazon Web Services",
+      completion: "2026"
     },
     {
       background: "AWS Certified Cloud Practitioner",
-      place: "Amazon Web Services (AWS)",
-      completion: "2025"
+      place: "Amazon Web Services",
+      completion: "2026"
     },
     {
-      background: "MSc Data Science",
+      background: "Master of Science in Data Science",
       place: "University of Aberdeen",
-      completion: "2024"
+      completion: "November 2024"
     },
     {
-      background: "Bachelor's Degree in Bioengineering",
+      background: "Bachelor's in Biomedical Engineering",
       place: "University of Antioquia",
-      completion: "2016"
-    },
-    {
-      background: "High School",
-      place: "Normal Superior Copacabana",
-      completion: "2009"
+      completion: "November 2016"
     }
   ],
   contact: {
@@ -142,6 +117,12 @@ export const appConfig = {
         icon: "📩",
         text: "Email me",
         href: "mailto:camilo.quiceno.q@gmail.com",
+        isClickable: true
+      },
+      {
+        icon: "📞",
+        text: "+57 319 249 44 03",
+        href: "tel:+573192494403",
         isClickable: true
       },
       {
